@@ -199,9 +199,14 @@ hr {
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 530px) {
- 
+    body {
+    	margin-top: 50px;
+    }
+    a.logo{
+    	font-size: 22px;
+	}
 	.flower h2 {
-		font-size: 24px;
+		font-size: 20px;
 	}
 	.button {
 	    font-size: 16px;
