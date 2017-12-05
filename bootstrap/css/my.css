@@ -45,6 +45,9 @@ nav.menu {
 
 
 .flower{
+	position: absolute;
+	left: 0;
+
 	text-align: center;
 	color: #fff;
 	text-transform: uppercase;
@@ -53,7 +56,7 @@ nav.menu {
 .flower h2 {
 	font-style: italic;
 	line-height: 1.5;
-	font-size: 60px;
+	font-size: 48px;
 	
 }
 
@@ -88,6 +91,9 @@ font-weight: bold;
 	font-size: 16px;
 	text-align: center;
 	
+}
+.about {
+	margin-top: 10px;
 }
  
  .about_s {
@@ -162,9 +168,9 @@ hr {
 /* Medium Devices, Desktop */
 @media only screen and (max-width: 1000px) {
 
-		a.logo{
+	a.logo{
 		margin-left: 0px;
-		font-size: 24px;
+		font-size: 22px;
 	}
 
 	h3{
@@ -191,9 +197,7 @@ hr {
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 720px) {
-     .images{
-     	height: 500px;
-     }
+
 
 }
 
@@ -209,5 +213,9 @@ hr {
 	    margin-top: 5px;
 		margin-bottom: -5px;
 	}
+	.about p {
+	margin-top: 20px;
+	text-align: center;
+}
 
 }
