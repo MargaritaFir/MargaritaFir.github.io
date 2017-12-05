@@ -96,7 +96,6 @@ font-weight: bold;
 
 .about p {
 	font-size: 20px;
-	margin-top: 20px;
 	text-align: left;
 }
 
@@ -168,7 +167,7 @@ hr {
 		font-size: 20px;
 	}
 	.flower h2 {
-		font-size: 30px;
+		font-size: 34px;
 	}
 	.button {
     	font-size: 24px;
@@ -180,6 +179,7 @@ hr {
 	.about p {
 		font-size: 16px;
 		text-align: center;
+		margin-top: 20px;
 	}
 
 
