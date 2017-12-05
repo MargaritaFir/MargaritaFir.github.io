@@ -163,27 +163,20 @@ hr {
 		padding-right: 100px;
 		margin-left: 0px;
 	}
-	.flower h2 {
-		font-size: 24px;
-	}
 
 
 /* Medium Devices, Desktop */
 @media only screen and (max-width: 1000px) {
 
-	a.logo{
-		margin-left: 0px;
-		font-size: 22px;
-	}
 
 	h3{
 		font-size: 20px;
 	}
 	.flower h2 {
-		font-size: 40px;
+		font-size: 46px;
 	}
 	.button {
-    	font-size: 25px;
+    	font-size: 30px;
 	}
 
 	.content  {
@@ -200,7 +193,12 @@ hr {
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 720px) {
-
+    .flower h2 {
+		font-size: 40px;
+	}
+	.button {
+    	font-size: 25px;
+	}
 
 }
 
@@ -216,9 +214,8 @@ hr {
 	    margin-top: 5px;
 		margin-bottom: -5px;
 	}
-	.about p {
+	.about {
 	margin-top: 20px;
-	text-align: center;
 }
 
 }
