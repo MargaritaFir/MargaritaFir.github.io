@@ -161,7 +161,10 @@ hr {
 @media only screen and (max-width: 1550px) {
 	a.logo{
 		padding-right: 100px;
-		margin-left: 50px;
+		margin-left: 0px;
+	}
+	.flower h2 {
+		font-size: 24px;
 	}
 
 
