@@ -1,7 +1,7 @@
 body {
 	font-family: 'Open Sans', sans-serif;
 	color: #813643;
-	margin-top: 65px;
+	margin-top: 60px;
 	
 
 }
@@ -21,12 +21,11 @@ nav.menu {
 
 
 	a.logo{
-	font-size: 30px;
+	font-size: 26px;
 	padding-right: 450px; 
 	margin-left: 340px;
 	font-style: italic;	
 }
-
 
 
 .images {
@@ -89,9 +88,7 @@ font-weight: bold;
 	text-align: center;
 	
 }
-.about {
-	margin-top: 10px;
-}
+
  
  .about_s {
     margin: 0px 0px 40px;
@@ -99,6 +96,7 @@ font-weight: bold;
 
 .about p {
 	font-size: 20px;
+	margin-top: 20px;
 	text-align: left;
 }
 
@@ -170,10 +168,10 @@ hr {
 		font-size: 20px;
 	}
 	.flower h2 {
-		font-size: 46px;
+		font-size: 30px;
 	}
 	.button {
-    	font-size: 30px;
+    	font-size: 24px;
 	}
 
 	.content  {
@@ -181,7 +179,7 @@ hr {
 	}
 	.about p {
 		font-size: 16px;
-		text-align: left;
+		text-align: center;
 	}
 
 
@@ -191,11 +189,12 @@ hr {
 /* Small Devices, Tablets */
 @media only screen and (max-width: 720px) {
     .flower h2 {
-		font-size: 40px;
+		font-size: 30px;
 	}
 	.button {
-    	font-size: 25px;
+    	font-size: 20px;
 	}
+
 
 }
 
@@ -211,8 +210,6 @@ hr {
 	    margin-top: 5px;
 		margin-bottom: -5px;
 	}
-	.about {
-	margin-top: 20px;
-}
+
 
 }
