@@ -53,7 +53,7 @@ nav.menu {
 .flower h2 {
 	font-style: italic;
 	line-height: 1.5;
-	font-size: 46px;
+	font-size: 60px;
 	
 }
 
@@ -63,7 +63,7 @@ nav.menu {
 	color: #fff;
 	margin-top: 40px;
 	margin-bottom: -40px;
-	font-size: 26px;
+	font-size: 30px;
 	text-transform: uppercase;
 	border-radius: 15px;
 	
@@ -160,21 +160,15 @@ hr {
 
 
 /* Medium Devices, Desktop */
-@media only screen and (max-width: 960px) {
-        body {
-    	margin-top: 50px;
-    }
+@media only screen and (max-width: 1000px) {
 
-		a.logo{
-		margin-left: 0px;
-		font-size: 22px;
-	}
+
 
 	h3{
 		font-size: 20px;
 	}
 	.flower h2 {
-		font-size: 30px;
+		font-size: 40px;
 	}
 	.button {
     	font-size: 25px;
@@ -197,18 +191,17 @@ hr {
      .images{
      	height: 500px;
      }
-
+	a.logo{
+		margin-left: 0px;
+	}
 }
 
 
 /* Extra Small Devices, Phones */
-@media only screen and (max-width: 540px) {
-    body {
-    	margin-top: 50px;
-    }
-
+@media only screen and (max-width: 530px) {
+ 
 	.flower h2 {
-		font-size: 20px;
+		font-size: 24px;
 	}
 	.button {
 	    font-size: 16px;
@@ -217,4 +210,5 @@ hr {
 	}
 
 }
+
 
