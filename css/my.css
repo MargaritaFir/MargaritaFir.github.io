@@ -32,14 +32,6 @@ nav.navbar {
 
 
 
-.floating {
-	position: fixed;
-	top:0;
-	left: 0;
-	padding: 15px 0;
-		background-color: #813643 !important;
-}
-
 	a.logo{
 	font-size: 26px;
 	padding-right: 250px; 
@@ -47,6 +39,8 @@ nav.navbar {
 	font-style: italic;
 
 }
+
+
 
 
 .images {
@@ -60,31 +54,33 @@ nav.navbar {
 		
 }
 
+
 .flower{
 	position: absolute;
+	top:35%;
 	left: 0;
 	text-align: center;
 	color: #fff;
 	text-transform: uppercase;
 	
 }
-.flower h2 {
+.flower p {
 	font-style: italic;
 	line-height: 1.5;
-	font-size: 48px;
+	font-size: 40px;
 	
 }
+
 
 .button {
 	border-color: #fff;
 	background-color: #813643 !important;
 	color: #fff;
-	margin-top: 40px;
-	margin-bottom: -40px;
 	font-size: 30px;
 	text-transform: uppercase;
 	border-radius: 15px;
-	box-shadow: none;
+	margin-top: 20px;
+
 	
 }
 
@@ -92,12 +88,9 @@ nav.navbar {
 	border: 2px solid #813643;
 	background-color: #fff !important;
 	color: #813643;
-	box-shadow: none;
 
 }
-.button:active {
-	box-shadow: none;
-}
+
 
 
 /*КОНТЕНТ*/
@@ -143,9 +136,12 @@ hr {
   /*ГАЛЕРЕЯ*/
 
 .gallery div>a>img {
+	overflow:hidden;
 	margin:10px 0px;
-}
+	position: relative;
 
+
+}
 .gallery img{
 	-ms-transition:all 1s ease-out; 
 	-moz-transition: all 1s ease-out;
@@ -161,7 +157,7 @@ hr {
 
 }
 
-  /*ОТЗЫВЫ*/
+ /*ОТЗЫВЫ*/
 
 .people h5 {
 	text-transform: uppercase;
@@ -206,8 +202,8 @@ hr {
 	h3{
 		font-size: 20px;
 	}
-	.flower h2 {
-		font-size: 34px;
+	.flower p {
+		font-size: 28px;
 	}
 	.button {
     	font-size: 24px;
@@ -228,8 +224,8 @@ hr {
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 720px) {
-    .flower h2 {
-		font-size: 30px;
+    .flower p {
+		font-size: 24px;
 	}
 	.button {
     	font-size: 20px;
@@ -242,13 +238,13 @@ hr {
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
  
-	.flower h2 {
+	.flower p {
 		font-size: 18px;
 	}
 	.button {
 	    font-size: 14px;
-	    margin-top: 5px;
-		margin-bottom: -5px;
+
 	}
+
 
 }
